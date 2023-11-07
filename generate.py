@@ -25,7 +25,7 @@ for b in current:
 index += '</ul>'
 
 index += '<p>'
-index += 'Source code:<br><a href="https://github.com/0xdstn/books" target="_blank">https://github.com/0xdstn/books</a><br><br>'
+index += 'Source code:<br><a href="https://github.com/vovavasylyna/books" target="_blank">https://github.com/vovavasylyna/books</a><br><br>'
 index += '</p>'
 
 index += footer
