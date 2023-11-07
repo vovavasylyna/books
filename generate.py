@@ -6,7 +6,7 @@ header += '<a href="https://vasylyna.net">Volodymyr Vasylyna`s website</a>'
 header += '<h2><a href="index.html">Books</a></h2>'
 header += '</header>'
 header += '<nav>'
-header += '<a href="2023.html">2023</a> | <a href="2022.html">2022</a> | <a href="2021.html">2021</a> | <a href="2020.html">2020</a> | <a href="2019.html">2019</a> | <a href="2018.html">2018</a> | <a href="2017.html">2017</a> | <a href="2016.html">2016</a> | <a href="2015.html">2015</a> | <a href="2014.html">2014</a> | <a href="2013.html">2013</a> | <a href="2012.html">2012</a> | <a href="2011.html">2011</a> | <a href="2010.html">2010</a><br><br>'
+header += '<a href="2023.html">2023</a> | <a href="2022.html">2022</a> | <a href="2021.html">2021</a> | <a href="2020.html">2020</a> | <a href="2017.html">2017</a> | <a href="2016.html">2016</a> | <a href="2015.html">2015</a> | <a href="2014.html">2014</a> | <a href="2013.html">2013</a> | <a href="2012.html">2012</a> | <a href="2011.html">2011</a> | <a href="2010.html">2010</a><br><br>'
 header += '</nav><section>'
 header += '<header class="site-header">'
 footer = '</section></body></html>'
@@ -34,7 +34,7 @@ indexFile = open('index.html', "w+")
 indexFile.write(index)
 indexFile.close()
 
-for yr in ["2023","2022","2021","2020","2019","2018","2017","2016","2015","2014","2013","2012","2011","2010",]:
+for yr in ["2023","2022","2021","2020","2017","2016","2015","2014","2013","2012","2011","2010",]:
     year = header
 
     with open('read-'+yr+'.txt') as f:
